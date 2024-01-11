@@ -11,8 +11,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--bg-color);
     font-family: 'Roboto Mono', monospace;
+    background: radial-gradient(#3e3e3e, #0e0e0e);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +26,7 @@ body {
 #container {
     width: var(--len);
     height: var(--len);
+    background-color: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(var(--cols), 1fr);
     grid-template-rows: repeat(var(--rows), 1fr)
