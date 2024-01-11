@@ -1,3 +1,4 @@
+// Press space to toggle trail
 // ASCII5.js 
 
 // The container element.
